@@ -49,7 +49,7 @@ direction TB
     Menultem <|-- KidsMenu
 
 ```
-Exameple of code output (included in the repository):
+Example of code output (included in the repository):
 ```python
 menu = Order(
             Beverages("Coke", 5.4, False), 
@@ -66,7 +66,8 @@ menu = Order(
              KidsMenu("Pizza", 11.76, False))
 menu.add_items(Extras("Salad", 4.5, False))
 menu.print_bill(10)
-
+```
+```
 Coke - $5.40
 Wine - $20.00
 Appel Juice - $6.20
